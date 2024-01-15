@@ -23,10 +23,10 @@ export const GymLeaders = () => {
         <div className="container w-full mx-auto">
             <main className="flex flex-col max-w-4xl min-h-screen py-5 mx-auto">
                 <Navbar />
-                <h1 className="py-5 text-2xl font-bold tracking-tighter text-center">Gym Leaders</h1>
-                <p className="text-xl">Estes são os líderes de ginásio deste jogo: </p>
+                <h1 className="py-5 text-2xl font-bold tracking-tight text-center">Gym Leaders</h1>
+                <p className="mx-2 text-xl font-semibold">Líderes de ginásio de Johto:</p>
                 
-                <motion.div className="grid gap-5 pt-5 md:grid-cols-2"
+                <motion.div className="flex flex-col gap-5 px-2 py-5 md:grid md:grid-cols-2"
                     variants={gridVariants}
                     initial="hidden"
                     animate="visible"

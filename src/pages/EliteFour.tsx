@@ -26,8 +26,8 @@ export const EliteFour = () => {
                 <Navbar />
 
                 <h1 className="py-5 text-2xl font-bold tracking-tighter text-center">Elite Four</h1>
-                <p className="text-xl">A Elite Four deste jogo é composta pelos seguintes integrantes: </p>
-                <motion.div className="grid grid-cols-2 gap-5 pt-5"
+                <p className="mx-3 text-xl font-semibold">Elite Four de Johto: </p>
+                <motion.div className="flex flex-col gap-5 px-2 py-5 md:grid md:grid-cols-2"
                     variants={gridVariants}
                     initial="hidden"
                     animate="visible"

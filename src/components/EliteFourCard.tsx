@@ -23,10 +23,10 @@ export const EliteFourCards = () => {
                     initial="hidden"
                     animate="visible"
                     key={index}
-                    className={`flex p-2 rounded shadow-sm shadow-blue-300  ${member.post_game_boss ? 'bg-red-300' : 'bg-zinc-100'}`}
+                    className={`flex flex-col md:flex-row p-2 rounded shadow-sm shadow-blue-300  ${member.post_game_boss ? 'bg-red-300' : 'bg-zinc-100'}`}
                 >
                     <div className="flex-1">
-                        <img src={member.image_url} alt={member.name} className="h-32 rounded max-w-56 cover"/>
+                        <img src={member.image_url} alt={member.name} className="w-full rounded md:h-32 md:max-w-56"/>
                     </div>
                     <div className="flex flex-col p-2 pt-5 w-44 description">
                         <h3 className="font-semibold">Treinador: {member.name}</h3>
