@@ -26,7 +26,7 @@ export const GymLeaders = () => {
                 <h1 className="py-5 text-2xl font-bold tracking-tighter text-center">Gym Leaders</h1>
                 <p className="text-xl">Estes são os líderes de ginásio deste jogo: </p>
                 
-                <motion.div className="grid grid-cols-2 gap-5 pt-5"
+                <motion.div className="grid gap-5 pt-5 md:grid-cols-2"
                     variants={gridVariants}
                     initial="hidden"
                     animate="visible"

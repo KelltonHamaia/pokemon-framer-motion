@@ -16,7 +16,7 @@ const liVariants = {
 export const Navbar = () => {
     return (
         <nav>
-            <ul className="flex justify-end gap-5 divide-x-2">
+            <ul className="flex items-center justify-end gap-5 divide-x-2">
                 <motion.li
                     className="px-4 text-center"
                     variants={liVariants}
