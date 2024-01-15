@@ -18,15 +18,6 @@ const gridVariants = {
     },
 }
 
-const divCardVariant = {
-    hidden: {
-        x: '-100vw'
-    },
-    visible: {
-        x: '0',
-    }
-} 
-
 export const GymLeaders = () => {
     return (
         <div className="container w-full mx-auto">
