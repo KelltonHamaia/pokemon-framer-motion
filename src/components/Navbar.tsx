@@ -1,48 +1,13 @@
-import { motion } from "framer-motion"
-
-const liVariants = {
-    hover: {
-        scale: 1.1,
-        y: -5,
-        fontWeight: "bold",
-        textDecoration: "underline",
-        transition: {
-            type: "spring",
-            stiffness: 120
-        }
-    }
-}
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
     return (
         <nav>
             <ul className="flex items-center justify-end gap-5 divide-x-2">
-                <motion.li
-                    className="px-4 text-center"
-                    variants={liVariants}
-                    whileHover="hover"
-                >
-                    <a href="/">Home</a>
-                </motion.li>
-                
-                <motion.li
-                    className="px-4 text-center"
-                    variants={liVariants}
-                    whileHover="hover"
-                >
-                    <a href="/gymleaders">Gym Leaders</a>
-                </motion.li>
-
-                <motion.li
-                    className="px-4 text-center"
-                    variants={liVariants}
-                    whileHover="hover"
-                >
-                    <a href="/eliteFour">Elite Four</a>
-                </motion.li>
-                
-            </ul
-            >
+                <Link to="/">Home</Link>   
+                <Link to="/gymleaders">gymleaders</Link>
+                <Link to="/eliteFour">eliteFour</Link>   
+            </ul>
         </nav>
     )
 }
