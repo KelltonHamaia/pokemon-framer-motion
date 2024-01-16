@@ -28,10 +28,10 @@ export const EliteFour = () => {
         <main className="flex flex-col max-w-4xl min-h-screen py-5 mx-auto ">
             <Navbar />
             
-            <h1 className="py-5 text-2xl font-bold tracking-tighter text-center">Elite Four</h1>
-            <p className="mx-3 text-xl font-semibold">Elite Four de Johto: </p>
+            <h1 className="py-5 text-2xl font-bold tracking-tight text-center">Elite Four</h1>
+            <p className="ml-4 text-xl font-semibold md:mx-2">Elite Four de Johto: </p>
             
-            <motion.div className="flex flex-col gap-5 px-2 py-5 md:grid md:grid-cols-2"
+            <motion.div className="flex flex-col gap-5 p-4 md:px-2 md:py-5 md:grid md:grid-cols-2"
                 variants={gridVariants}
                 initial="hidden"
                 animate="visible"

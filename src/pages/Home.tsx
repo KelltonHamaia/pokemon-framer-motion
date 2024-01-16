@@ -50,7 +50,7 @@ export const Home = () => {
             <motion.section
                 variants={childrenVariants}
             >
-                <h2 className="py-4 ml-4 text-2xl font-semibold tracking-tighter md:py-5">História</h2>
+                <h2 className="py-4 ml-4 text-2xl font-semibold tracking-tight md:py-5">História</h2>
                 <p className="px-4 py-1 md:p-4">
                     O jogo se passa na região de Johto, e protagoniza a segunda geração de jogos Pokémon,
                     onde dessa vez, estamos na pele de Ethan ou da novs personagem Kris. Você recebe seu pokémon do Prof. Elm, encara ginásios,
