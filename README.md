@@ -11,4 +11,5 @@ Por fim, para ver o projeto rodando, utillize o comando:
 
     npm run dev
    
-(http://localhost:3000 )http://localhost:3000 
+
+http://localhost:3000 
